@@ -1,8 +1,15 @@
 # Experiment 4: DeFi Lending and Borrowing Protocol
+
+**Name : Tharun Sridhar**
+
+**Reg No : 212223230230**
+
 # Aim:
+
 To build a decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral. This experiment introduces concepts like overcollateralization, liquidity pools, and interest accrual in DeFi.
 
 # Algorithm:
+
 Step 1: Setup Lending and Borrowing Mechanism
 Users deposit ETH into the contract as liquidity.
 
@@ -25,7 +32,7 @@ If collateral < liquidation threshold, liquidators can repay the borrower's debt
 
 
 
-Program:
+# Program:
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -75,12 +82,15 @@ contract DeFiLending {
 ```
 # Expected Output:
 Users can deposit ETH and earn interest.
+![image](https://github.com/user-attachments/assets/ad996c2d-29c1-4847-b560-be388cff6480)
 
 
 Users can borrow ETH by providing collateral.
+![image](https://github.com/user-attachments/assets/f729edb4-471d-401b-a19b-3b083b1353d2)
 
 
 If collateral < 150% of borrowed amount, liquidators can seize the collateral.
+![image](https://github.com/user-attachments/assets/06c5bdff-1a3f-4cd0-ac80-f830a39a58e1)
 
 
 
@@ -92,6 +102,6 @@ Introduces risk management: overcollateralization and liquidation.
 
 
 Directly related to DeFi protocols like Aave and Compound.
-
+ 
 # RESULT : 
-
+Thus, the decentralized lending protocol where users can deposit assets to earn interest and borrow assets by providing collateral is executed succesfully.
